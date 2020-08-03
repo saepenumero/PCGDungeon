@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\harsh\OneDrive\Desktop\Stuff\Code\PCGDungeon\PCGDungeon\</FILEPATH>
+      <FILENAME>GenerateLevel.cpp</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '85136' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>generate_Level</FUNCTION>
+    <DECORATED>?generate_Level@@YA?AVLevelGen@@XZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\harsh\OneDrive\Desktop\Stuff\Code\PCGDungeon\PCGDungeon\</FILEPATH>
+      <FILENAME>GenerateLevel.cpp</FILENAME>
+      <LINE>174</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ValidMove' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>calc_valid_move</FUNCTION>
+    <DECORATED>?calc_valid_move@@YA?AW4ValidMove@@U?$pair@HH@std@@@Z</DECORATED>
+    <FUNCLINE>149</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\harsh\OneDrive\Desktop\Stuff\Code\PCGDungeon\PCGDungeon\</FILEPATH>
+      <FILENAME>GenerateLevel.cpp</FILENAME>
+      <LINE>204</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'CellType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>Node::init</FUNCTION>
+    <DECORATED>?init@Node@@QEAAXHH@Z</DECORATED>
+    <FUNCLINE>200</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\harsh\OneDrive\Desktop\Stuff\Code\PCGDungeon\PCGDungeon\</FILEPATH>
+      <FILENAME>GenerateLevel.h</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Node::valid_moves' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Node::{ctor}</FUNCTION>
+    <DECORATED>??0Node@@QEAA@XZ</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Node::valid_moves</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\harsh\OneDrive\Desktop\Stuff\Code\PCGDungeon\PCGDungeon\</FILEPATH>
+      <FILENAME>GenerateLevel.cpp</FILENAME>
+      <LINE>360</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'LevelGen::path_length' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>LevelGen::{ctor}</FUNCTION>
+    <DECORATED>??0LevelGen@@QEAA@XZ</DECORATED>
+    <FUNCLINE>360</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>LevelGen::path_length</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

@@ -1,0 +1,12 @@
+﻿  GenerateLevel.cpp
+C:\Users\harsh\OneDrive\Desktop\Stuff\Code\PCGDungeon\PCGDungeon\GenerateLevel.cpp(264,1): warning C4273: 'test_dll': inconsistent dll linkage
+C:\Users\harsh\OneDrive\Desktop\Stuff\Code\PCGDungeon\PCGDungeon\GenerateLevel.h(76,34): message : see previous definition of 'test_dll'
+C:\Users\harsh\OneDrive\Desktop\Stuff\Code\PCGDungeon\PCGDungeon\GenerateLevel.cpp(269,1): warning C4273: 'gen_level': inconsistent dll linkage
+C:\Users\harsh\OneDrive\Desktop\Stuff\Code\PCGDungeon\PCGDungeon\GenerateLevel.h(78,35): message : see previous definition of 'gen_level'
+     Creating library C:\Users\harsh\OneDrive\Desktop\Stuff\Code\PCGDungeon\x64\Release\PCGDungeon.lib and object C:\Users\harsh\OneDrive\Desktop\Stuff\Code\PCGDungeon\x64\Release\PCGDungeon.exp
+  Generating code
+  216 of 228 functions (94.7%) were compiled, the rest were copied from previous compilation.
+    2 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  PCGDungeon.vcxproj -> C:\Users\harsh\OneDrive\Desktop\Stuff\Code\PCGDungeon\x64\Release\PCGDungeon.dll
